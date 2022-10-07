@@ -19,7 +19,7 @@ setup(
     },
     license="MIT",
     author="teixeirazeus",
-    description="Validator Pizza Python is a library for http://validator.pizza which helps you verify if an email or domain is a disposable email service provider.",
+    description="Validator Pizza Python is a library for validator.pizza which detects disposable email addresses.",
     long_description=readme,
     long_description_content_type="text/markdown",
     python_requires=">=3.6",
