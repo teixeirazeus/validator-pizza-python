@@ -6,6 +6,7 @@ class DomainStatus:
     """
     Domain status model
     """
+
     status: int = None
     domain: str = None
     mx: bool = None

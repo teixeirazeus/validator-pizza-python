@@ -24,8 +24,7 @@ class AioPizzaValidator:
 
         response = await self.session.get(f"https://api.mailcheck.ai/domain/{domain}")
         if response.status != 200:
-            raise Exception(
-                f'Error: {response.status} - Fail to validate domain.')
+            raise Exception(f"Error: {response.status} - Fail to validate domain.")
 
         data = await response.json()
         return DomainStatus(**data)
@@ -48,10 +47,9 @@ class PizzaValidator:
         Return a DomainStatus object.
         """
 
-        response = requests.get(f'https://api.mailcheck.ai/domain/{domain}')
+        response = requests.get(f"https://api.mailcheck.ai/domain/{domain}")
         if response.status_code != 200:
-            raise Exception(
-                f'Error: {response.status} - Fail to validate domain.')
+            raise Exception(f"Error: {response.status} - Fail to validate domain.")
 
         data = response.json()
         return DomainStatus(**data)
