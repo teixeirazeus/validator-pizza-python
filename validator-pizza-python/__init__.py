@@ -1,4 +1,4 @@
-from .client import AioPizzaValidator
+from .client import AioPizzaValidator, PizzaValidator
 from . import models
 
 __author__ = "teixeirazeus"
