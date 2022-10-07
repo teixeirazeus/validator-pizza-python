@@ -4,7 +4,7 @@ from dataclasses import dataclass
 @dataclass
 class EmailStatus:
     """
-    Domain status model
+    Email status model
     """
 
     status: int = None
