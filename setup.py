@@ -1,7 +1,7 @@
 import re
 from setuptools import setup, find_packages
 
-with open("validator-pizza-python/__init__.py", "r", encoding="utf-8") as f:
+with open("validator_pizza_python/__init__.py", "r", encoding="utf-8") as f:
     version = re.search(
         r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE
     ).group(1)
