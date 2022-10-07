@@ -12,7 +12,7 @@ pip install validator-pizza-python
 ## Usage
 
 ```python
-from validator_pizza_python import ValidatorPizza
+from validator_pizza_python import PizzaValidator
 
 PizzaValidator.validate("teixeira.zeus@gmail.com")
 # EmailStatus(status=200, email='teixeira.zeus@gmail.com', domain='gmail.com', mx=True, disposable=False, alias=False, did_you_mean=None)
